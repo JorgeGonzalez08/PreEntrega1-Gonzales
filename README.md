@@ -9,7 +9,7 @@
 - npm install
 
 ## Comandos de ejecución 
-Para poder iniciar la ejecución en algun entorno(dev,prod,test) ingresa una de los siguientes comandos:
+Para poder iniciar la ejecución en algun entorno(dev,prod,test) ingresa uno de los siguientes comandos:
 
 - Entorno DEV => npm run dev (ejecuta node --watch ./src/app.js) 
 - Entorno PROD => npm run start (ejecuta node ./src/app.js --mode=prod) 
