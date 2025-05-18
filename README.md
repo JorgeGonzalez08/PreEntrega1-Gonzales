@@ -1,6 +1,6 @@
 # PreEntrega 1
 
-## Puertos utilizado:
+## Puertos utilizados:
 - DEV - 3000
 - PROD - 8080
 - TEST - 7000
@@ -9,11 +9,11 @@
 - npm install
 
 ## Comandos de ejecución 
-Para poder iniciar la ejecución(dev,prod,test) ingresa una de los siguientes comandos:
+Para poder iniciar la ejecución en algun entorno(dev,prod,test) ingresa una de los siguientes comandos:
 
-- npm run dev (ejecuta node --watch ./src/app.js) 
-- npm run start (ejecuta node ./src/app.js --mode=prod) 
-- npm run test (ejecuta node ./src/app.js --mode=test) 
+- Entorno DEV => npm run dev (ejecuta node --watch ./src/app.js) 
+- Entorno PROD => npm run start (ejecuta node ./src/app.js --mode=prod) 
+- Entorno TEST => npm run test (ejecuta node ./src/app.js --mode=test) 
 
 Una vez ingresado el comando, en la consola apareceran los siguientes mensajes:
 
@@ -22,15 +22,15 @@ Una vez ingresado el comando, en la consola apareceran los siguientes mensajes:
 
 ##  Registro dinamico de productos
 
-Para realizar el registro de productos ingresar a la siguiente ruta y colocar el numero de productos a registrar:
+Para realizar el registro de productos ingresar a la siguiente ruta(api/mocks/products/:products) y colocar el numero de productos a registrar.
 
-- api/mocks/products/:products
+- http://localhost:3000/api/mocks/products/5 => Este es un ejemplo del resgistro de 5 productos en el entorno de desarrollo(dev)
 
 
 ##  Registro dinamico de usuarios
-Para realizar el registro de usuarios ingresar a la siguiente ruta y colocar el numero de usuarios a registrar:
+Para realizar el registro de usuarios ingresar a la siguiente ruta(api/mocks/users/:users) y colocar el numero de usuarios a registrar:
 
-- api/mocks/users/:users 
+- http://localhost:3000/api/mocks/users/5 => Este es un ejemplo del resgistro de 5 usuarios en el entorno de desarrollo(dev)
 
 
 ## Realizado con:
