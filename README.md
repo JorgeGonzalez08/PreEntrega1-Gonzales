@@ -24,13 +24,13 @@ Una vez ingresado el comando, en la consola apareceran los siguientes mensajes:
 
 Para realizar el registro de productos ingresar a la siguiente ruta(api/mocks/products/:products) y colocar el numero de productos a registrar.
 
-- http://localhost:3000/api/mocks/products/5 => Este es un ejemplo del resgistro de 5 productos en el entorno de desarrollo(dev)
+- http://localhost:3000/api/mocks/products/5 => Este es un ejemplo del registro de 5 productos en el entorno de desarrollo(dev)
 
 
 ##  Registro dinamico de usuarios
 Para realizar el registro de usuarios ingresar a la siguiente ruta(api/mocks/users/:users) y colocar el numero de usuarios a registrar:
 
-- http://localhost:3000/api/mocks/users/5 => Este es un ejemplo del resgistro de 5 usuarios en el entorno de desarrollo(dev)
+- http://localhost:3000/api/mocks/users/5 => Este es un ejemplo del registro de 5 usuarios en el entorno de desarrollo(dev)
 
 
 ## Realizado con:
