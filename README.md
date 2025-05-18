@@ -22,13 +22,13 @@ Una vez ingresado el comando, en la consola apareceran los siguientes mensajes:
 
 ##  Registro dinamico de productos
 
-Para realizar el registro de productos ingresar a la siguiente ruta y colocar el numero de productos a registar:
+Para realizar el registro de productos ingresar a la siguiente ruta y colocar el numero de productos a registrar:
 
 - api/mocks/products/:products
 
 
 ##  Registro dinamico de usuarios
-Para realizar el registro de usuarios ingresar a la siguiente ruta y colocar el numero de usuarios a registar:
+Para realizar el registro de usuarios ingresar a la siguiente ruta y colocar el numero de usuarios a registrar:
 
 - api/mocks/users/:users 
 
